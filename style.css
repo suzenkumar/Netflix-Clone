@@ -98,7 +98,8 @@ nav button {
     border-radius: 4px;
     cursor: pointer;
 }
-.hero-buttons{
+
+.hero-buttons {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -134,7 +135,7 @@ nav button {
     font-weight: 900;
 }
 
-.first{
+.first {
     display: flex;
     justify-content: center;
     max-width: 70vw;
@@ -143,17 +144,95 @@ nav button {
     justify-content: center;
     align-items: center;
 }
-.secImg{
+
+.secImg {
     position: relative;
 }
 
-.secImg img{
-    width: 30vw;
-    
+.secImg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+
 }
 
-.secImg video{
+.secImg video {
+
+
 
     position: absolute;
-    
+    top: 72px;
+    right: 0;
+    width: 489px;
+}
+
+.secImg .video2 {
+    position: absolute;
+    top: 72px;
+    right: 0;
+    width: 560px;
+
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+}
+
+.faq h2{
+    text-align: center;
+    font-size: 48px;
+}
+.faq{
+    background-color: black;
+    color: white;
+    padding: 34px;
+}
+
+.faqbox:hover{
+    background-color: #414141;
+    color: white;
+}
+
+.faqbox svg{
+    filter:invert(1);
+
+}
+
+.faqbox {
+    transition: all 1s ease-in-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    background-color: #2d2d2d;
+    padding: 10px;
+    max-width:60vw;
+    margin:34px auto;
+    cursor: pointer;
+}
+
+footer{
+    background-color: white;
+    max-width:60vw;
+    margin:auto;
+    padding:60px;
+}
+
+footer .questions{
+    padding: 34px 0;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
 }
