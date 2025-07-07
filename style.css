@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("assets/images/bg.jpg");
+    background-position: center center;
+    background-repeat: none;
+    background-size: max(1000px, 100vw);
+    height: 67vh;
+    /* opacity: ; */
+    position: relative;
+}
+
+.main .box {
+    height: 121vh;
+    width: 104%;
+
+    opacity: 0.20;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    max-width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    height: 62px;
+}
+
+nav img {
+    color: red;
+    height: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: "Martel Sans", sans-serif;
+    height: 100% - 62px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.hero> :first-child {
+    font-weight: bolder;
+    font-size: 38px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.separation {
+    margin-top: 110px;
+    height: 7px;
+    background-color: rgb(121, 121, 121);
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.013);
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 8px 22px;
+    font-size: 20px;
+    border-radius: 7px;
+    font-weight: 400;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+}
+
+.main input {
+    /* background-color: rgba(23, 23, 23, 0.2);
+    color: rgb(255, 249, 249);
+    /* padding: 6px 10px; */
+    /* font-size: 20px;
+    border-radius: 4px;  */
+    padding: 7px 101px 8px 14px;
+    font-size: 12px;
+    border-radius: 4px;
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    background-color: rgba(23, 23, 23, 0.7);
+    color: white;
+    font-weight: 900;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.secImg{
+    position: relative;
+}
+
+.secImg img{
+    width: 30vw;
+    
+}
+
+.secImg video{
+
+    position: absolute;
+    
+}
